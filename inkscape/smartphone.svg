@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="smartphone.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="-150.08263"
+     inkscape:cy="566.00348"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="0"
+     inkscape:window-y="31"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff"
+       id="rect2991"
+       width="428.57144"
+       height="674.28571"
+       x="147.14285"
+       y="140.93361"
+       ry="97.479721" />
+    <rect
+       style="fill:#1a1a1a"
+       id="rect2999"
+       width="439.89999"
+       height="792.85712"
+       x="130"
+       y="113.79076"
+       ry="48.48" />
+    <rect
+       style="fill:#ffffff"
+       id="rect3001"
+       width="377.14288"
+       height="624.28571"
+       x="158.57143"
+       y="195.21933" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff"
+       id="path3007"
+       sodipodi:cx="357.85715"
+       sodipodi:cy="868.07648"
+       sodipodi:rx="17.857143"
+       sodipodi:ry="18.571428"
+       d="m 375.71429,868.07648 a 17.857143,18.571428 0 1 1 -35.71429,0 17.857143,18.571428 0 1 1 35.71429,0 z"
+       transform="matrix(1.64,0,0,1.4615385,-236.52857,-406.36497)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#1a1a1a"
+       id="path3014"
+       sodipodi:cx="350"
+       sodipodi:cy="862.54077"
+       sodipodi:rx="24.285715"
+       sodipodi:ry="23.392857"
+       d="m 374.28572,862.54077 a 24.285715,23.392857 0 1 1 -48.57144,0 24.285715,23.392857 0 1 1 48.57144,0 z" />
+    <rect
+       style="fill:#ffffff"
+       id="rect3038"
+       width="83.928574"
+       height="20"
+       x="298.21429"
+       y="131.29076"
+       ry="7.6785712" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#280b0b"
+       id="path3040"
+       sodipodi:cx="444.64285"
+       sodipodi:cy="141.46933"
+       sodipodi:rx="6.7857141"
+       sodipodi:ry="6.25"
+       d="m 451.42857,141.46933 a 6.7857141,6.25 0 1 1 -13.57143,0 6.7857141,6.25 0 1 1 13.57143,0 z" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#280b0b"
+       id="path3046"
+       sodipodi:cx="462.77612"
+       sodipodi:cy="141.52026"
+       sodipodi:rx="6.8185296"
+       sodipodi:ry="6.3765879"
+       d="m 469.59465,141.52026 a 6.8185296,6.3765879 0 1 1 -13.63706,0 6.8185296,6.3765879 0 1 1 13.63706,0 z" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#666666"
+       id="path3048"
+       sodipodi:cx="258.47278"
+       sodipodi:cy="143.35117"
+       sodipodi:rx="7.9549513"
+       sodipodi:ry="7.4498749"
+       d="m 266.42773,143.35117 a 7.9549513,7.4498749 0 1 1 -15.9099,0 7.9549513,7.4498749 0 1 1 15.9099,0 z" />
+    <rect
+       style="fill:#008080"
+       id="rect3058"
+       width="377.58783"
+       height="52.707405"
+       x="158.08888"
+       y="194.74268" />
+    <rect
+       style="fill:#ffffff"
+       id="rect3062"
+       width="240.92139"
+       height="30.304579"
+       x="163.13963"
+       y="203.83403"
+       ry="5.5555558" />
+    <rect
+       style="fill:#ffffff"
+       id="rect3066"
+       width="119.70307"
+       height="30.304579"
+       x="410.62701"
+       y="205.34927"
+       ry="5.5555558" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="164.1483"
+       y="223.97458"
+       id="text3068"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3070"
+         x="164.1483"
+         y="223.97458">solarpoweredebikes.tudelft.nl</tspan></text>
+    <rect
+       style="fill:#c8beb7"
+       id="rect3104"
+       width="233.34526"
+       height="40.406128"
+       x="226.27417"
+       y="439.19958"
+       ry="20.203064" />
+    <rect
+       style="fill:#c8beb7"
+       id="rect3104-5"
+       width="233.34526"
+       height="40.406128"
+       x="226.77924"
+       y="485.1615"
+       ry="20.203064" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="289.91376"
+       y="464.4534"
+       id="text3154"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3156"
+         x="289.91376"
+         y="464.4534">username</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="294.96454"
+       y="510.41531"
+       id="text3158"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3160"
+         x="294.96454"
+         y="510.41531">password</tspan></text>
+  </g>
+</svg>

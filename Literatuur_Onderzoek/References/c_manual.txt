@@ -1,0 +1,6 @@
+http://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html
+http://www.modbustools.com/modbus.html
+http://www.seriousintegrated.com/w/index.php?title=Protocol:Modbus
+http://www.interlog.com/~speff/usefulinfo/modbus_protocol.pdf
+https://www-s.acm.illinois.edu/webmonkeys/book/c_guide/
+

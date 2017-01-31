@@ -1,0 +1,35 @@
+****Ideeënbox****
+
+--Algemene ideeën--
+
+--Ideeën applicatie--
+* Overzicht van je verbruik (indien ingelogd)
+	** Hoeveel energie heb ik geladen? Hoe lang kan ik hiermee fietsen (misschien afhankelijk van gemeten wind e.d.)?
+	** Hoeveel heb ik bespaard t.o.v. een elektrische/brandstof auto?
+* Overzicht met real-time informatie over het laadstation, inclusief het verleden
+	** Aantal vrije laadplekken
+	** Status van je eigen fiets (indien ingelogd)
+	** Weerstation informatie
+	** Status van het station (werkend, uigeschakeld i.v.m. bv temperatuur)
+	** Status zonnepanelen (hoeveel wordt er momenteel aan elektriciteit gegenereerd?)
+* Voorbeelden van anderen
+	** http://www.chargepoint.com/mobile/
+	** https://network.semaconnect.com/
+		*** Login: tim.hosman@hotmail.com
+		*** Password: banaan
+	** http://www.fietsen.123.nl/pagina/oplaadpunten-overzicht
+	** http://www.greenchargeapp.com/
+	** https://www.planyo.com/
+		*** Login: tim.hosman@hotmail.com
+		*** Password: Banaan12
+		*** Veel te uitgebreid (reserveren op datum hoeft b.v. niet), maar wel een goede site als indicatie
+
+--Ideeën website--
+* 3D model van het oplaadstation dat kan draaien met informatie over de verschillende onderdelen.
+    
+--Ideeën server--
+
+
+--Ideeën ODROID--
+
+

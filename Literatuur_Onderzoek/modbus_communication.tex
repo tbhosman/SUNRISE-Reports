@@ -1,0 +1,41 @@
+\section{Modbus Communicatie}
+
+\subsection{Inleiding}
+Voor de communicatie tussen de apparaten wordt er gebruik gemaakt van het Modbus protocol. Dit protocol bestaat in meerdere vormen: Modbus TCP, Modbus RTU en Modbus ASCII. Voor de communicatie tussen de PHP server en de ODROID word er gebruik gemaakt van modbus TCP. Vanaf de ODROID word er gebruik gemaakt van modbus ASCII  om het weerstation en de Victron-apparaten aan te sturen. 
+Er had ook gekozen kunnen worden voor modbus RTU. Het nadeel van modbus RTU is dat er een continue stroom van data nodig is om de data goed te ontvangen. Bij modbus ASCII mogen er tijdsintervallen tussen het verzenden van characters zitten zonder dat dit problemen oplevert. Omdat er in het systeem gebruik gemaakt wordt van interrupts is het beter om modbus ASCII te gebruiken.
+
+\subsection{Modbus Protocol}
+\begin{itemize}
+
+\item \cite{ModTCP}: Handleiding om data te verzenden over TCP via Modbus. Voor de communicatie tussen de PHP server en de ODROID.
+
+\item \cite{ModFAQ}: Supported Modbus function codes en error’s. 
+
+\item \cite{modbus_types}: Deze website bevat een overzicht van het format van de packets die verzonden worden met Modbus. Het gaat hier om Modbus ASCII, RTU en TCP.
+
+\item \cite{modbus_protocol_3}: Deze handleiding is specifiek gericht op de specificaties en de implementatie van Modbus over een seri\"ele lijn. De handleiding gaat specifiek in op de Modbus typen ASCII en RTU.
+
+\item \cite{modbus_protocol_4}: Dit is een artikel over twee populaire toepassingen van Modbus; de traditionele versie Modbus over een seri\"ele lijn en Modbus op een TCP/IP netwerk.
+
+\item \cite{ModProto}: Over het gebruiken van modbus ASCII.
+
+\end{itemize}
+
+\subsection{C Documentatie}
+\begin{itemize}
+\item \cite{c_manual}: Dit is een naslagwerk voor de programmeertaal C gericht op de 1989 ANSI C en 1999 ISO C standaard. Het bevat de syntax van C met daarnaast een groot aantal voorbeelden.
+
+\item \cite{c_manual_2}: Net als \cite{c_manual} bevat dit naslagwerk de basis syntax van C. Daarnaast bevat het ook de inhoud van een aantal libraries waaronder \verb|math.h|, \verb|stdio.h|, \verb|stdlib.h|, \verb|string.h| en \verb|time.h|.
+
+\item \cite{Embedded}: Het systeem moet werken zonder interactie van een mens. Hiervoor zijn veel manieren van programmeren zoals round-robbin of function queue scheduling. Daarnaast gaat dit boek in op problemen bij het gebruik van interrupts zoals shared data problemen.
+\end{itemize}
+
+\subsection{Hardware Documentatie}
+\begin{itemize}
+\item \cite{GXPanel,invCharg,sensor}: Handleidingen voor het gebruik van de apparatuur.
+
+\item \cite{ODROID_specs}: Op deze pagina van de ontwikkelaar is een blokdiagram te zien van de ODROID U3. Daarnaast is er middels een aantal foto's aangegeven waar de componenten op het bordje zitten. Ook is er een tabel met algemene specificaties van de ODROID.
+
+\item \cite{ODROID_schematics}: Dit bestand bevat de pin-layout van de ODROID-U3.
+
+\end{itemize}

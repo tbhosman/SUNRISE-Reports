@@ -1,0 +1,46 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[english]{babel}
+%\usepackage{graphicx}
+\usepackage[final]{graphicx}
+\usepackage{subcaption}
+\usepackage{epstopdf}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{url}
+\usepackage{fixltx2e}
+%\usepackage[numbered]{mcode}
+\usepackage{listings}
+\usepackage[margin=1.1in]{geometry}
+\usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage{hyperref}
+
+
+\begin{document}
+
+%Frontpage
+\title{Literatuuronderzoek\\
+Control, Dashboard and End-User Interface for Solar Powered eBike Charging Station 
+}
+\author{Groep D\\
+Nourdin Ait el Mehdi, 4276825\\
+Dani\"el Brouwer, 4288297\\
+Tim Hosman, 4275691\\
+Timothy de Moor, 4272536\\
+Job van Staveren, 4317386\\
+David Veselka, 4280199}
+\date{\today}
+\clearpage\maketitle
+\thispagestyle{empty}
+
+\newpage
+\include{modbus_communication}
+\include{php_phone_communication}
+\include{verg_projecten}
+
+\bibliographystyle{IEEEtran}
+\nocite{*}
+\begingroup
+\raggedright
+\bibliography{modbus_communication,php_phone_communication,verg_projecten}
+\endgroup
+\end{document}

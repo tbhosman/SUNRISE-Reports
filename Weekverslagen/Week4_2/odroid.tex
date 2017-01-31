@@ -1,0 +1,24 @@
+\subsection*{Groep ODROID}
+\begin{itemize}
+\item Alle benodigde software, packages en libraries ge\"installeerd om de bestaande C-code te kunnen compilen en runnen;
+\item Grafisch overzicht gemaakt van de bestaande code. Zie figuur \ref{bicyleshed}.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.8\textwidth]{images/ODROID_code_overview.png}
+\caption{Een overzicht van code in BicycleShed.c}
+\label{bicyleshed}
+\end{figure}
+
+\item Uitgezocht welke data er vanuit het weerstation uitgelezen moet worden en hoe dat ge\"implementeerd kan worden in de C-code;
+\item Uitgezocht welke data er uitgelezen moet worden vanuit het Victron systeem;
+\item Uitlezing van Victron en weerstation aangepast naar de data die uitgelezen moet worden, en geschaald op basis van de datasheets;
+\item Timing van het uitlezen van de systemen instellen.
+\end{itemize}
+
+\subsubsection*{Volgende Week}
+\begin{itemize}
+\item Als de meetopstelling gebruikt kan worden, kunnen de eerste tests gedaan worden met het uitlezen van de systemen;
+\item C-code schrijven voor het uitlezen van de ADAM-module met de daar aan vastgekoppelde temperatuursensoren;
+\item De C-code aansluiten op het blok C-code van Groep Server dat ervoor zorgt dat de meetdata verzonden wordt naar de server;
+\end{itemize}

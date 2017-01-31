@@ -1,0 +1,33 @@
+\subsection*{Groep IO}
+
+\subsubsection*{Deze week}
+\begin{itemize}
+\item CSS een heel stuk verbeterd
+\item Interactie Jquery en CSS voor het applogin scherm verbeterd.
+\item Buttons toegevoegd met PHP waardoor nu een station te reserveren is.
+\item Achtergrond donker en half doorzichtig gemaakt als er nog geen reservering is gedaan.
+\item model van compass gemaakt voor het aangeven van de windrichting + windsnelheid in de app
+\item WebGL verder uitgebreid (zodat deze ook is te gebruiken voor de app), waaronder onder andere:
+\begin{itemize}
+\item het object model kan nu "children" hebben waardoor bepaalde modellen die bij elkaar horen tegelijk kunnen worden geroteerd, getransleerd en geanimeerd.
+\item functies ge\"implementeerd om te kunnen roteren (om eigen as en globale middelpunt) en transleren.
+\item fixedUpdate() functie gemaakt die automatisch wordt aangeroepen vanuit de modelViewer.js. Nu is de modelViewer volledig onafhankelijk van het "hoofdscript" van de pagina te benaderen en zijn animaties dus gemakkelijk te maken.
+\item functie gemaakt die textures kan maken van een string en hiervan een webgl rectangle object van maakt zodat textboxes gemaakt kunnen worden. Dit wordt gebruikt om de windspeed aan te geven. Dit moet op deze manier want WebGL kan zelf niet direct characters printen.
+\end{itemize}
+\end{itemize}
+
+\noindent De werking van de vernieuwde modelviewer is te zien op:\\ \url{http://solarpoweredbikes.tudelft.nl/modelviewer_testpage/modelview_testpage.html}\\
+\noindent De source code ervan staat onder de map ''$httpdocs/modelviewer_testpage$" op de server.\\
+
+\noindent Het nieuwe CSS design van de applogin en appreserveren pagina + de nieuwe buttons op de reserveren pagina zijn te vinden op:\\ \url{http://solarpoweredbikes.tudelft.nl/eud/app_login.php}\\
+
+\noindent Username: sunrise\\
+\noindent Password: helemaalmooi\\
+
+
+\subsubsection*{Volgende weken}
+\begin{itemize}
+\item Begin maken aan de thesis
+\item HTTPS beveiliging
+\item Android en iPhone app?
+\end{itemize}

@@ -1,0 +1,12 @@
+Compiling manual for the document containing all source code for the ODROID, server and webpage.
+
+1. Check/select all folders and files in the Home directory on the server.
+2. Compress all these folders/files to a zip using the function "Archive"
+Note: You will probably get some weird error message saying that permission is denied for some reasing.
+Now click "Ok". Now another error message appears saying that the chosen filename is already in use. Simply ignore this message. Refresh the page and you will see that the .zip archive has been created already.
+3. Download and extract the just created .zip archive and extract it.
+4. Compile the file telefoonboek.tex to obtain a .pdf file containing an overview of all the source code.
+
+----
+Don't move telefoonboek.tex or code.tex but leave it in the home directory (top level). Otherwise the paths used for the listings input will be incorrect.
+----

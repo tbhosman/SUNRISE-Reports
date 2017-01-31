@@ -1,0 +1,34 @@
+\section{Group HTML}\label{HTML}
+
+Group HTML was responsible for the end-user interface. The end-user interface consists of two parts: a informational website and a reservation application. Both parts were implemented using HTML5, PHP, CSS and Javascript. Figure \ref{img:systeemoverzicht} shows an overview of the project.
+
+\begin{figure}[!h]
+\begin{center}\includegraphics[width=8cm]{images/systeemoverzicht.pdf}
+\caption{Global system overview}
+\label{img:systeemoverzicht}
+\end{center}
+\end{figure}
+
+\subsection{Modelviewer}
+
+For the graphics part a standalone script called Modelviewer.js was implemented. This script is used to draw 3D objects for the informational website and the reservation application. The modelviewer uses WebGL to render scenes and animate models. It implements the Phong Reflection model to simulate lighting effects including ``ambient'' and ``diffuse'' shading. Furthermore the modelviewer makes interaction possible by detecting mouse movements (e.g. the charing station on the main website can be dragged around). The modelviewer is designed to be scalable  so that it can be extended in the future. The script can be implemented on every page moreover extra models can be added if necessairy without any fundamental changes to the code. On every model function can be called to translate, rotate or scale it. It is also possible to parent a model to an other model so it will follow the changes made to the parent.
+
+\subsection{The reservation app}
+
+The reservation application is primarily designed to give user the possiblity to claim a spot in the e-bike charing station. When the user claims a spot by clicking on a reserve button, communication takes place between the app and the PHP server. The server communicates with the database and updates the charger status. To prevent malicious activty, a login system was implemented. User have to login with there credentials to be able to access the app or administration page if the user has admin privileges. The app has a weatherpage where the weatherdata from the weatherstation is displayed. This is done using the modelviewer in combination with server requests for weather data. In the app, a settingspage can be found. On this page the user can set their average charging time and fill in their e-mail address to receive a notification when the timer ends. Furthermore the app can be personalized by choosing different themes.
+
+\subsection{The informational website}
+
+The information page contains general information about the different components inside the charging station. It also has a page dedicated to all the team members that have worked on this project. Moreover a contact page can be found where an interactive map shows the exact location of the charging station. On the homepage a 3D replica of the station can be found together with models of the surrounding buildings. The whole scene can be rotated using the mouse. This is all powered by the modelviewer.
+
+\subsection{Further notes}
+
+The informational website can be found using the following URL: \url{http://solarpoweredbikes.tudelft.nl}\\
+The app can be found using the following URL: \url{http://solarpoweredbikes.tudelft.nl/eud/app_login.php}\\
+
+\noindent
+For instructions on how to maintain and modify all components, please refer to the manual on the server.
+
+
+
+

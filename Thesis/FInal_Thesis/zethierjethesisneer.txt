@@ -1,0 +1,2 @@
+Zet je thesis in deze map zodat deze gereviewed kan worden.
+Na het reviewen een kopie van de thesis met comments weer hier neerzetten en pushen.

@@ -1,0 +1,88 @@
+From "Preparing_a_paper.pdf"
+
+Parts of a paper:
+-Title
+Avoid formulations like: An approach, A method, An original, A novel(new) and more stuff like this.
+
+-Abstract
+Max 200-250 words
+No references and do not refer to other's work
+
+-Introduction
+Give relevant references
+Mention previous contributions to the field
+See file for more info
+
+-Body of the paper
+See file for more info
+Plots/Figures: watch out with coloured stuff->May look poor when printed B&W
+
+-Conclusion(s)
+Reiterate goal of your contribution as announced in abstract
+Highlight most important/prominent results
+No conclusions on topics not discussed in body of the text
+No new information in conclusion 
+
+-References
+Included in the list in the order in which they where mentioned
+IEEE style
+
+-Appendices
+
+From "Rubrics_expl.pdf"
+
+Compulsory parts
+-Title Page
+-Title
+-Table of contents
+-Abstract
+-Introduction
+-State-of-the-art analysis
+-Definition of the problem
+-Methods and techniques
+-Results
+-Conclusions
+-Future work and recommendations
+-Appendices
+
+Other important topics
+-Mathematics and equations
+-Figures and tables
+-Cross-referencing
+-Citations/List of references
+
+-General structure
+-General drawing neatness
+-General scientific neatness
+-Phrasing
+-References
+
+From "IEEEtran_HOWTO.pdf"
+
+Some important guidelines for writing the thesis accoriding to the IEEE style with the IEEEtran package.
+
+-Text size 9, 10, 11 or 12 pt.
+-Include abstract (\abstract)
+-Use \cite
+-Square [] brackets for references to literature
+-Refer to equations as: "...can be seen in (2)"
+-Use \centering instead of \begin{center}
+-Floats on top of the page
+-Use .eps of .pdf for graphics
+-Place captions above table
+-Use \appendix for appendices
+-Use the IEEEtran Bibtex for the references
+-Place \label after \caption
+
+And many, many, many more in the pdf file
+
+From "Howtowriteafinalreport.pdf"
+-Know your audience!
+-Don't make readers work too hard
+-Avoid red flags as calling that you like using Windows ;)
+-Structure above all
+-Make sure thesis has an ending (reflect back to the start)
+-----It is preferable to cite the reference at the end of the sentence if possible-----
+
+-Refer to tables, figures and equations ---before--- they appear
+-Check last slides for detailed explanation of the contents of the chapters

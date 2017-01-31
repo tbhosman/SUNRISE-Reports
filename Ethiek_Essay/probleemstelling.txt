@@ -1,0 +1,95 @@
+1. Morele Probleemstelling: Is het gebruik en de ontwikkeling van drones voor militaire toepassingen moreel aanvaardbaar, zelfs als dat nadelige effecten kan hebben voor de gewone burger?
+
+2. Probleemanalyse:
+	Betrokkenen en hun belangen
+	-Belang van de burgers: Leven in veiligheid zonder angst
+	-Belang van de staat in bezit van drones: Veiligheid, imago, kosten, effectiviteit
+	
+	De waarden in het gedrang
+	-Veiligheid
+	-Geld
+	-Macht
+	
+	De feiten die een rol spelen
+	-Drones zijn goedkoper
+	-Drones kunnen langer in de lucht blijven
+	-Minder militairen in gevaar gebracht
+	-
+
+	Handelingsmogelijkheden
+	Zwart-Witstrategie
+	-(1)Het gebruik van drones verbieden
+	-   Het gebruik van drones (blijven) toestaan	
+
+	Aankaarten op hoger niveau
+	-N.v.t.
+
+	Strategie van samenwerking
+	-(3)Limiet op aantal burgerslachtoffers(percentage, bovengrens of combinatie)
+	-(4)Strengere opleiding voor dronepiloten
+	-(5)Internationale regels voor het gebruik van gevechtsdrones opstellen->bijvoorbeeld alleen survaillance
+	-(6)Drones moeten eerst doorontwikkeld(alleen de bestaande functies) worden en uitvoerig worden getest
+
+	Strategie van klokkenluiden
+	-N.v.t.
+
+3. Ethische oordeelsvorming
+
+Intuitie
+(1) Niet haalbaar, remt technische ontwikkeling
+    Huidige situatie, te veel burgerslachtoffers
+(3) Mits onder wat er nu is voor straaljagers
+(4) Dit lost waarschijnlijk niet het hele probleem op, maar kan wel daar aan bijdragen
+(5) Meer collectieve verantwoordelijkheid
+	Kan stellen dat het veiliger is omdat er meer over wordt nagedacht of dat het uiteindelijk nog steeds weinig uitmaakt omdat de aanval gedaan wordt op basis van de drone.
+(6) Betere herkenning van mensen
+	
+(1)
+//Gevolgethiek:
+Als de drones beter/nauwkeuriger/doelgerichter worden is dat beter voor beide partijen->voor beide partijen meer veiligheid
+Plichtethiek:
+Drones verbieden want het is je plicht om niet te doden. Niet doden is hier het principe. Het resultaat veiligheid wordt minder in beschouwing genomen.
+Deugdenethiek:
+Leidend orgaan van het land behoort zijn eigen burgers veilig te houden(deugd is berscherming van je burgers), maar behoort ook geen buitenstaanders 
+Verantwoordelijkheidsethiek:
+De vraag is te algemeen om met de verantwoordelijkheidsethiek dit te beantwoorden. Als we echter de gemiddelde burger als een individu nemen, dan zijn drones goed omdat er dan minder slachtoffers vallen.
+
+(3)
+Gevolgethiek:
+Minder doden, dus ok.
+Plichtethiek:
+Je mag sowieso niet doden
+Deugdenethiek:
+Minder doden meer veiligheid
+
+(4)
+Gevolgethiek:
+Zie (1)
+Plichtethiek:
+Opleiden is niet slecht en dus universaliseerbaar
+Deugdenethiek:
+Piloten betrouwbaarder, bescherming medemens
+Verantwoordelijkheidsethiek:
+Zie (3)
+
+(5)
+Gevolgethiek:
+Twijfelachtig. Zie de eigen intuitie
+Plichtethiek:
+Geen doden want een survaillance drone kan geen mensen doden
+Deugdenethiek:
+Met alleen surv. houd je je eigen land veilig
+Verantwoordelijkheidsethiek:
+Voor de burger goed want meer veiligheid (en evt. minder doden)
+
+(6)
+Gevolgethiek:
+Goed want meer precisie is meer veiligheid(3)
+Plichtethiek:
+Doorontwikkelen van drones zorgt niet direct voor meer doden
+Deugdenethiek:
+Hier niet van toepassing
+Verantwoordelijkheidsethiek:
+zie (3)
+
+

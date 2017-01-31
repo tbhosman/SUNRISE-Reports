@@ -1,0 +1,38 @@
+\section{Group ODROID}\label{sec:ODROID}
+Team ODROID was responsible for the local data management and charger control. The team managed to fetch all necessary data from the power electronics, temperature probes and weather station with C-code running on an ODROID C1+. Furthermore, the developed system was designed from the start to be robust (since it will be running 24/7) and has been thoroughly tested for possible malfunctions. The system has also been made resistant against power and internet outages. Moreover, the system can register e-bike cable connections, which it uses to fully control the chargers. It also provides data necessary to display system information on a local display. Finally, the entire system is remotely controllable through a remote desktop.\\
+
+\subsection{Structure of the software}
+The C-code that will manage all the data on the ODROID consists of several elements. An overview of how these elements and their data are managed can be found in \Cref{fig:code_overview}.\\
+
+\begin{figure}[!ht]
+  \centering
+    \includegraphics[width=0.8\textwidth]{images/ODROID_code_overview.pdf}
+      \caption{An overview of the C code}\label{fig:code_overview}
+\end{figure}
+
+The entire program is built around a variable \verb|j| that keeps track of time by incrementing every 1.5 seconds. This variable resets to zero every time it is reaches 400, creating a loop that restarts every 10 minutes.\\
+
+The ODROID will decide what data to handle based on this variable. For every j, the ODROID will fetch the charger states from the server and set the chargers using the \verb|setChargers()| function. Every 5 minutes (when \verb|j| equals 100 or 300), data from the weather station is fetched and sent to the server (\verb|weatherDisplay(1)|). Every 15 seconds (when \verb|j| is a multiple of 10), data will also be fetched from the weather station, but only to refresh the local display (\verb|weatherDisplay(0)|). To prevent this event from causing two data fetches to the weather station, it is only run if it does not conflict with \verb|weatherDisplay(1)| (by using \verb|else if|). Note that \verb|weatherDisplay(0)| does not increment \verb|j|, so it is possible that it runs together (before) the functions starting at \verb|j| equal to 400 or 200.\\
+
+Every 10 minutes (when \verb|j| equals 200), data from the temperature probes is read. This data is also sent to the server. A similar loop is also run every 10 minutes (when \verb|j| equals 400) which will read the Victron data. This loop will be run 3 times because there are three seperate chunks of data that will be read. Every chunk of data is seperately sent to the server. All data that is fetched is stored in a global array that is initialized on startup.\\
+
+\subsection{Weatherstation}
+The Lufft WS503-UMB weather station register has many registers of which the following are read through Modbus RTU: sensor statusses (registers 2-6), temperature (register 34), wind-chill temperature (register 39), relative humidity (register 13), relative air pressure (register 17), wind speed (register 42), wind direction (register 18) and solar radiation (register 30). The received values are cast and scaled before being sent to the server. The Victron power system is read through Modbus TCP, but is cast and scaled similarly to the weather station. All data regarding the MultiPlus, batteries and solar charger is read and sent to the server.\\
+
+\subsection{Temperature probes}
+All SFCS50-3-3-TB-5 temperature probes are connected to the ADAM-4015 data acquisition module. This module was configured using the AdamApax .NET Utility to map temperatures between -50\degree C and 150\degree C to a \verb|uint16_t|. It sends all data through Modbus RTU. After scaling, all data is sent to the server. This includes unconnected values (this is registered as 150\degree C) to enable hotswap ([un]connecting probes while the system is live).\\
+
+\subsection{Control for the chargers}
+The chargers are controlled using the FSM found in \Cref{fig:fsm}. The USERTIMER enables the user to place and lock their bike after logging in. CONNECTTIMER ensures that the bike is correctly connected before turning the charger on. DISCONNECTTIMER makes sure that the user has left and the charger is not unintentionally disconnected. The chargers are automatically turned off if the station lost internet connection for more than two hours. During absence of internet, the system only has an ON and OFF state (no timers).\\
+
+\begin{figure}[!ht]
+  \centering
+    \includegraphics[width=0.8\textwidth]{images/Charger_Control.pdf}
+      \caption{FSM to control the chargers}\label{fig:fsm}
+\end{figure}
+
+\subsection{Local display}
+The local display is controlled by printing a \verb|.json| file which is read by a locally hosted webpage. This local display uses WebGL and can also be controlled remotely through a remote desktop. Note that this remote desktop is a separate display (actions are not directly seen on the local display).\\
+
+\subsection{Bash scripts}
+The ODROID has a few Bash scripts that boot on startup (using the \verb|Upstart| package): \verb|Xvnc_killer| (kills remote desktops if there are too many) and a browser and server booter.

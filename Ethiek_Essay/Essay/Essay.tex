@@ -1,0 +1,56 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[dutch]{babel}
+%\usepackage{graphicx}
+\usepackage[final]{graphicx}
+\usepackage{subcaption}
+\usepackage{epstopdf}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{url}
+\usepackage{fixltx2e}
+%\usepackage[numbered]{mcode}
+\usepackage{listings}
+\usepackage[margin=1.1in]{geometry}
+\usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{xcolor}
+\newcommand{\subtitle}[1]{{\color{gray}\it{Door: #1}}\vspace{5mm}\\}
+
+
+\begin{document}
+\setlength\parindent{0pt}
+
+%Frontpage
+\title{Moderne oorlogsvoering: a Game of Drones\\\vspace{2ex}
+}
+\author{Groep D \\
+\begin{tabular}{ll}
+  Nourdin Ait el Mehdi & 4276825 \\
+  Dani\"el Brouwer & 4288297\\
+  Tim Hosman & 4275691\\
+  Timothy de Moor & 4272536\\
+  Job van Staveren & 4317386\\
+  David Veselka & 4280199\\
+\end{tabular}}
+\date{\today}
+\clearpage\maketitle
+\thispagestyle{empty}
+
+\include{Inleiding}
+\include{Uiteenzetting}
+\include{Handelingsopties}
+\input{Ethische_inbreng1}
+\input{Ethische_inbreng2}
+\input{Ethische_inbreng3}
+\input{Ethische_inbreng4}
+\input{Ethische_inbreng5}
+\include{Conclusie}
+
+\bibliographystyle{IEEEtran}
+\nocite{*}
+\begingroup
+\raggedright
+\bibliography{Essay}
+\endgroup
+\end{document}

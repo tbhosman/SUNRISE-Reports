@@ -1,0 +1,22 @@
+Omdat mierenneuken en consistentie de sleutels tot een goed verslag zijn, hier een lijstje. Als dit lijstje nog niet volledig is, zijn uitbreidingen uiteraard welkom! Simplicity is the ultimate sophistication! Mensen die fouten maken tegen dit bestand aub daar op wijzen! Maar vooral: geef je gezond verstand voorang!
+
+Algemene zaken:
+Captions moeten beschrijven zijn, en op zichzelf staan. Gebruik dus geen captions als 'Waveforms of design' maar gebruik 'ModelSim simulation results of the VHDL code of the program counter'
+
+Gebruik voor variabele namen buiten tabellen de volgende notatie: \verb|my_var|
+
+Gebruik voor plaatjes zoveel mogelijk vector based formaten, zoals .eps.
+
+Voor quotes en andere dingen waar aanhalingstekens voor nodig zijn, moeten voor het woord backticks (`) en achter het woord aanhalingstekens (') worden gebruikt: ``Mijn quote".
+
+
+Houd je aan de volgende benamingen:
+
+Schrijf e-bike, en niet eBike, ebike, EBike, E-Bike, e-Bike, ...
+Schrijf PHP-server, en niet phpserver, PHPserver, php-server, ...
+Schrijf ODROID, en niet oDroid, Odroid, odriod, oidroid, Odriod, Oidroid ...
+Schrijf ODROID-U3, en niet ODROID U3
+Schrijf Modbus
+Schrijf SUNRISE
+Schrijf C-code, en niet c code, C code, ...
+Schrijf TU Delft, en niet TUDelft

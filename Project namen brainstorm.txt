@@ -1,0 +1,68 @@
+--Key words--
+Autonomous
+Recharging
+network
+e-bike
+solar
+power(ed)
+charge/charging
+bike
+electric(al)
+software
+control(ler)
+dashboard
+Server
+Rejuvinate
+Reenergize
+User interface
+Graphical user interface
+
+--Namen--
+BOLTON - eBike OpLaad Terminal Observervatie Netwerk
+SOLARGE
+ZONODIG
+SOL
+Coulomb
+Fahrad-ay
+HERBERT - Hier Ebike Reserveren Bij Elke Random Terminal
+FOTON - Fiets Oplaad Terminal Observatie Netwerk
+SUNNY - Solar UNit 
+B’VOTON  -  Briljant Visueel Oplaad Terminal Over Netwerk
+VOLTON - Visueel Oplaad Terminal Over Netwerk
+VERSTROID
+VICTOR
+SPECTON - Solar Powered Electric Charging
+Soltron
+BOIP - Bike Over IP
+FOIP - Fiets over IP
+HOIP - HYPE
+ZOEF - Zon Overgoten Elektrische Fiets
+SPOOF - Ripoff ZOEF
+GROEF - Je moeders ZOEF
+TRON - terminal reactor onder n
+Zontron
+RUPERT - Reenergizing Ur Powered Electric Ride TODAY
+Asperge - Autonomous Solar Powered Ebike RecharGing Entity
+Aspergesoep - Autonomous Solar Powered Ebike RecharGing Entity StandalOnE Program
+SPARTAN - Solar Powered Autonomous Recharging Terminal  And Network
+Stengel - Solar Triggered ENerGizing E-bike Link
+SUNRISE - Smart UNmanned Rugged Integrated Solar Entity
+
+
+SUNRISE - Smart Users Never Recharge In Sunless Entities
+
+/*
+
+
+SUNBURST - 
+SUNRAY - Smart Users Never React A Yolo
+
+Smart Unmanned Nuclear Reactor Is So Exhausted! :D
+
+Aanpak - 
+
+Instant? Solar Entity
+
+*/
+
+

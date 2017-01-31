@@ -1,0 +1,79 @@
+\documentclass[a4paper, twoside, 10pt]{book}
+\usepackage{listings}			% Used to include VHDL-code and fragments
+\usepackage[dutch]{babel}		% Dutch hyphenation patterns and dutch names 
+\usepackage{pslatex}			% Times, helvetica and courier
+\usepackage[T1]{fontenc}		% Nicer font-encoding
+\usepackage{hyperref}			% Gives clickable references in pdf-file
+\usepackage{graphicx}			% Used to include .pdf, .jpg and .png-files
+\usepackage{tabularx}			% Used for evenly spread tables
+\usepackage{eso-pic}			% Absolute positioning, used for lines-to-track appendix and front- and backpage
+\usepackage{datetime}			% Used for some data-references
+\usepackage[font=small,format=plain,labelfont=bf,up,textfont=up]{caption}	% Nicer captions
+\usepackage{nonfloat}			% Captions for non-floating figures and tables
+\usepackage{nextpage}			% Advanced nextpage commands
+\usepackage{keystroke}			% "real" keys
+\usepackage[nottoc]{tocbibind}		% Include Bibliography in ToC
+\usepackage{multirow}			% Span text over multiple rows
+\usepackage{verbatim}			% For comment-environment
+\usepackage[left=3.5cm, right=2.5cm]{geometry}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Settings
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Settings for hyperref-package
+\hypersetup{	colorlinks	= false,		%
+		pdfborder	= 0 0 0}		%
+
+% Settings for listings-package
+\lstset{	numbers		= left,			%
+		numberstyle	= \tiny,		%
+		numbersep	= 5pt,			%
+		language	= VHDL,			%
+		breaklines	= true,			%
+		showspaces	= false,		%
+		showstringspaces= false}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% End of settings
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+	\newcounter{tempcounter}	% For temporarily breaking enumerate-environments
+
+	\pagestyle{empty}		% To prevent pagenumber on backside of titlepage
+	\input{frontpage}
+	\input{versieoverzicht}
+
+	\frontmatter
+	\pagestyle{headings}
+
+		\input{samenvatting}
+
+		\phantomsection
+		\pdfbookmark[0]{Inhoudsopgave}{toc}
+		\tableofcontents
+
+	\mainmatter
+		%Add input files here:	
+		\input{inleiding}
+		\input{probleemstelling}
+		\input{systeemoverzicht}
+		\input{servomotoren}
+		\input{lijnvolger}
+		\input{routevolger}
+		\input{xbee}
+		\input{mijndetector}
+		\input{routeplanner}
+		\input{integratie}
+		\input{testen}
+		\input{discussie}
+		\input{conclusies}
+		\input{groepsproces}
+		\input{literatuurlijst}
+	 \appendix
+		\input{appendix_fpga_pins}
+		\input{appendix_vhdl_broncode}
+		\input{appendix_c_broncode}
+	\input{backpage}
+
+\end{document}
